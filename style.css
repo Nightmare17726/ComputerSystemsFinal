@@ -1,0 +1,379 @@
+body {
+    /* background-color: #bfe3ff */
+    /* background-color: #d6ebfc */
+    background-color: #fcf1d6
+}
+
+.header {
+    font-family: impact;
+    font-size: 30px;
+    /*background-color: #087f16;*/
+}
+
+
+/*The navigation bar at the top of each page.*/
+
+.navigation {
+    width: auto;
+    ;
+    padding: 5px;
+    margin: 0px auto 0px auto;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    text-align: center;
+}
+
+.nav {
+    display: inline;
+    margin: 0px 3px;
+}
+
+.link {
+    color: #000000;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 6px 24px 5px 25px;
+}
+
+a:hover {
+    color: #a80505;
+}
+
+
+/*MAGIC SET #1*/
+
+span.main {
+    display: inline-block;
+    width: 1500px;
+    height: 300px;
+    border: 2px solid black;
+    background-color: white;
+    text-align: center;
+    line-height: 550px;
+}
+
+span.small {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    padding: 5px;
+    border: 2px solid black;
+    background-color: white;
+    margin-right: 18px;
+    margin-left: 18px;
+    line-height: 380px;
+}
+
+span.individual {
+    display: inline-block;
+    width: 300px;
+    height: 450px;
+    padding: 5px;
+    border: 2px solid black;
+    background-color: white;
+    text-align: center;
+    margin-right: 30px;
+    margin-left: 30px;
+    line-height: 100px;
+}
+
+span.response {
+    display: inline-block;
+    position: relative;
+    width: 400px;
+    height: 500px;
+    padding: 5px;
+    border: 2px solid black;
+    background-color: white;
+    text-align: center;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+span.categories {
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    padding: 5px;
+    margin-right: 30px;
+    margin-left: 30px;
+    text-align: center;
+    line-height: 960px;
+    background-color: white;
+}
+
+
+/*MAGIC SET #2*/
+
+#main {
+    background-image: url("slu2.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    padding: 10px;
+}
+
+#IA {
+    background-image: url("ia1.png");
+    background-repeat: no-repeat;
+    background-size: 210px 180px;
+    background-position: center;
+}
+
+
+/*#cipher{
+  background-image: url("c_cipher3.png");
+  background-repeat: no-repeat;
+  background-size: 310px 180px;
+}*/
+
+#li-fi {
+    background-image: url("li-fi4.png");
+    background-repeat: no-repeat;
+    background-size: 260px 210px;
+    background-position: center;
+}
+
+#net_top {
+    background-image: url("net_top1.png");
+    background-repeat: no-repeat;
+    background-size: 240px 150px;
+    background-position: center;
+}
+
+#chase {
+    background-image: url("chase franse.jpg");
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 360px 470px;
+    background-position: center;
+}
+
+#caleb {
+    background-image: url("caleb hunt2.jpg");
+    background-repeat: no-repeat;
+    background-size: 350px 600px;
+    background-position: center;
+}
+
+#shame {
+    background-image: url("shane irons.jpg");
+    background-repeat: no-repeat;
+    background-size: 480px 480px;
+    background-position: center;
+}
+
+#jordan {
+    background-image: url("jordan mason.jpg ");
+    background-repeat: no-repeat;
+    background-size: 360px 470px;
+    background-position: center;
+}
+
+#jared {
+    background-image: url("jared dewinne.jpg");
+    background-repeat: no-repeat;
+    background-size: 450px 570px;
+    background-position: center;
+}
+
+#net_top2 {
+    background-image: url("visio1.png");
+    background-repeat: no-repeat;
+    background-size: 300px 275px;
+    background-position: left;
+    line-height: 80px;
+}
+
+#bio_cf {
+    background-image: url("chase franse.jpg");
+    background-repeat: no-repeat;
+    background-size: 240px 300px;
+    background-position: left;
+    line-height: 15px;
+}
+
+#bio_ch {
+    background-image: url("caleb hunt.jpg");
+    background-repeat: no-repeat;
+    background-size: 240px 300px;
+    background-position: right;
+    line-height: 35px;
+}
+
+#bio_si {
+    background-image: url("shane irons.jpg");
+    background-repeat: no-repeat;
+    background-size: 240px 300px;
+    background-position: left;
+    line-height: 35px;
+}
+
+#bio_jm {
+    background-image: url("jordan mason.jpg");
+    background-repeat: no-repeat;
+    background-size: 240px 300px;
+    background-position: right;
+    line-height: 35px;
+}
+
+#bio_jd {
+    background-image: url("jared dewinne.jpg");
+    background-repeat: no-repeat;
+    background-size: 240px 300px;
+    background-position: left;
+    line-height: 35px;
+}
+
+.text_right_topic {
+    text-align: center;
+    width: 1150px;
+    margin-left: 320px;
+    line-height: 35px;
+}
+
+.text_left_topic {
+    text-align: center;
+    width: 1150px;
+    margin-right: 320px;
+    line-height: 35px;
+}
+
+.text_right_response {
+    text-align: center;
+    width: 390px;
+    height: 300px;
+    line-height: 35px;
+    margin-top: 110px;
+    text-indent: 50px;
+}
+
+.text_right_bios {
+    text-align: center;
+    width: 1150px;
+    height: 400px;
+    line-height: 35px;
+    margin-top: 15px;
+    margin-left: 300px;
+    text-indent: 50px;
+}
+
+.text_left_bios {
+    text-align: center;
+    width: 1150px;
+    height: 400px;
+    line-height: 35px;
+    margin-top: 15px;
+    text-indent: 50px;
+}
+
+.res_title {
+    text-align: center;
+    width: 300px;
+    text-decoration-line: underline;
+    text-emphasis-style: filled;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+#chase_res {
+    display: inline-block;
+    background-color: white;
+    background-image: url("chase franse.jpg");
+    background-repeat: no-repeat;
+    background-size: 100px 140px;
+}
+
+#caleb_res {
+    display: inline-block;
+    background-color: white;
+    background-image: url("caleb hunt2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100px 160px;
+}
+
+#shame_res1 {
+    display: inline-block;
+    background-color: white;
+    background-image: url("shane irons.jpg");
+    background-repeat: no-repeat;
+    /*Normal Shane picture size: */
+    background-size: 120px 120px;
+}
+
+#shame_res2 {
+    display: inline-block;
+    background-color: white;
+    background-image: url("shane irons2.jpg");
+    background-repeat: no-repeat;
+    /*Fat Shane picture size:*/
+    background-size: 120px 140px;
+}
+
+#jordan_res {
+    display: inline-block;
+    background-color: white;
+    background-image: url("jordan mason.jpg");
+    background-repeat: no-repeat;
+    background-size: 100px 140px;
+}
+
+#jared_res {
+    display: inline-block;
+    background-color: white;
+    background-image: url("jared dewinne.jpg");
+    background-repeat: no-repeat;
+    background-size: 100px 140px;
+}
+
+#kano {
+    background-image: url("kano_kit1.jpg");
+    background-repeat: no-repeat;
+    background-size: 550px 400px;
+    background-position: center;
+}
+
+#python_proj {
+    background-image: url("python1.png");
+    background-repeat: no-repeat;
+    background-size: 400px 400px;
+    background-position: center;
+}
+
+#net_top3 {
+    background-image: url("net_top3.jpg");
+    background-repeat: no-repeat;
+    background-size: 480px 400px;
+    background-position: center;
+}
+
+#cipher_proj {
+    background-image: url("c_cipher3.png");
+    background-repeat: no-repeat;
+    background-size: 450px 300px;
+    background-position: center;
+}
+
+#gcp_proj {
+    background-image: url("gcp1.png");
+    background-repeat: no-repeat;
+    background-size: 480px 300px;
+    background-position: left;
+    line-height: 80px;
+}
+
+#gcp {
+    background-image: url("gcp2.png");
+    background-repeat: no-repeat;
+    background-size: 180px 180px;
+    background-position: center;
+}
+
+#kano_kit2 {
+    background-image: url("kano2.jpg");
+    background-repeat: no-repeat;
+    background-size: 300px 275px;
+    background-position: left;
+    line-height: 80px;
+}
